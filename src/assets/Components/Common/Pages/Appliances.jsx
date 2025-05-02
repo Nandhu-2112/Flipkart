@@ -39,7 +39,7 @@ function Appliances() {
 
   const homeDecorProducts = [
     { img: "src/assets/matters.jpg", title: "Mattress", price: "From ₹2,990" },
-    { img: "src/assets/sofa.jpg", title: "Sofa & Sectional", price: "From ₹7,990" },
+    { img: "src/assets/sofa.jpg", title: "Sofa & Sectional", price: "From ₹7,900" },
     { img: "src/assets/office study.jpg", title: "Chairs", price: "From ₹1,890" },
     { img: "src/assets/Bed.jpg", title: "Beds", price: "From ₹1,790" },
     { img: "src/assets/Tv units.jpg", title: "Tv Units", price: "From ₹1,249" },
