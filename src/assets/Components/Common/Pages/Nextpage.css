@@ -1,0 +1,145 @@
+
+.orders-container {
+  padding: 20px;
+  background-color: #f8f8f8;
+  font-family: Arial, sans-serif;
+}
+.section-wrapper{
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+
+.orders-container h2 {
+  margin-bottom: 10px;
+  font-size: 25px;
+  /* color: #333; */
+  /* background-color: #f8f8f8; */
+}
+
+
+ .product-scroll-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px 0;
+  margin-bottom: 30px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Scroll button styling */
+.scroll-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  /* color: white; */
+  border: none;
+  font-size: 24px;
+  /* padding: 10px 12px; */
+  cursor: pointer;
+  z-index: 1;
+  border-radius: 50%;
+  /* transition: background-color 0.3s; */
+}
+
+.scroll-btn:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.scroll-btn.left {
+  left: 10px;
+}
+
+.scroll-btn.right {
+  right: 10px;
+}
+
+/* Hide scrollbar in products container */
+.products {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  /* width: 100%; */
+  /* padding: 0 30px; */
+  margin: 10px;
+}
+
+.products::-webkit-scrollbar {
+  display: none;
+}
+
+/* Each product card */
+.product {
+  /* flex: 0 0 calc(100% / 6);
+  box-sizing: border-box;
+  margin: 10px 8px;
+  text-align: center;
+  font-size: 16px;
+  transition: transform 0.3s; */
+  flex: 0 0 auto;
+  margin: 0 10px;
+  text-align: center;
+  width: 150px;
+}
+
+.product:hover {
+  transform: scale(1.03);
+}
+
+
+.product img {
+  width: 100%;
+  /* height: 110px;  */
+  /* object-fit: contain; */
+  border-radius: 6px;
+  
+  /* margin-bottom: 6px; */
+}
+
+
+/* .product span {
+  display: block;
+  font-weight: 500;
+  font-size: 13px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+.product h3 {
+  font-size: 13px;
+  color: #007b5f;
+  margin-top: 4px;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.product h3:hover {
+  transform: scale(1.05);
+}  */
+  .product-scroll-wrapper{
+    display: flex;
+    align-items: flex-start;
+  }
+.booking-outside {
+  margin-left: 10px;
+  width: 200px;
+  height: 200%;
+  flex-shrink:0;
+}
+
+.booking-outside img {
+  width: 100%;
+  height: 100%;
+  object-fit:contain;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+
+ 

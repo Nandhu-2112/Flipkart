@@ -1,0 +1,121 @@
+.orders-container {
+    padding: 20px;
+    background-color: #f1f2f4;
+  }
+  
+  .section-title {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px 0 10px 5px;
+    color: #212121;
+  }
+  
+  .product-section-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 30px;
+  }
+  
+  .scroll-area {
+    position: relative;
+    flex-grow: 1;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .scroll-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    background-color: white;
+    border: 1px solid #ccc;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .scroll-btn:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .scroll-btn.left {
+    left: 10px;
+  }
+  
+  .scroll-btn.right {
+    right: 10px;
+  }
+  
+  .products {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 15px;
+    padding: 10px 0;
+  }
+  
+ 
+  .product {
+    min-width: 150px;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.2s ease;
+  }
+  
+  .product:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product img {
+    width: 100%;
+    height: 120px;
+    object-fit: contain;
+    margin-bottom: 8px;
+  }
+  
+  .product p {
+    font-size: 14px;
+    color: #212121;
+    margin: 0;
+  }
+  
+  .product h3 {
+    font-size: 14px;
+    color: #388e3c;
+    font-weight: 500;
+    margin-top: 6px;
+  }
+  
+  .extra-image {
+    width: 200px;
+    height: auto;
+    margin-left: 15px;
+    flex-shrink: 0;
+  }
+  
+  .extra-image img {
+    width: 100%;
+    height: auto;
+    border-radius:0;
+    object-fit: cover;
+    display: block;
+  }
+
+  .orders-container h2 {
+    font-size: 24px; 
+    font-weight: 600;
+    color: #212121;
+    margin: 20px 0; 
+  }

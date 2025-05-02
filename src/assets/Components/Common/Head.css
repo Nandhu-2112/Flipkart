@@ -1,0 +1,180 @@
+/* body{
+    margin: 0;
+    padding: 0;
+    background-color: #f1f3f6;
+    font-family: Arial, sans-serif;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: rgb(0,0,0,0.1);
+}
+.header{
+    cursor: pointer;
+}
+.search-bar input{
+    width: 500px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    
+}
+.search-bar::placeholder{
+    font-size: 24px;
+    color: #888;
+}
+.login-btn{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    
+} */
+/* .login-btn img{
+    width: 24px;
+    height: 24px;
+}
+.login-btn span{
+    font-size: 14px;
+    font-weight: 500;
+}
+.header-option:hover .icon-text span{
+    color: #2874f0;
+}
+.header-option:active{
+    background-color: blue;
+} */
+
+
+/* General Styling */
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #2874f0; /* Flipkart Blue */
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Flipkart Logo */
+  .header img {
+    height: 40px;
+    cursor: pointer;
+  }
+  
+  /* Search Bar */
+  .search-bar {
+    flex: 1;
+    margin: 0 20px;
+    position: relative;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px 40px 10px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+  }
+  
+  .search-bar input::placeholder {
+    color: #888;
+  }
+  
+  /* Navigation Links */
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .login-btn {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+  }
+  
+  .login-btn:hover {
+    text-decoration: underline;
+  }
+  
+  /* Cart Section */
+  .cart {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .cart img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .cart a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .cart a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Seller Section */
+  .seller {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .seller img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .seller a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
+  .seller a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Dropdown Menu */
+  .container img {
+    cursor: pointer;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .content {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .search-bar {
+      order: 2;
+      flex: 1 1 100%;
+      margin-top: 10px;
+    }
+  
+    .nav-links,
+    .cart,
+    .seller {
+      display: none; /* Hide some elements on small screens */
+    }
+  }
+  
